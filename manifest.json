@@ -1,0 +1,33 @@
+{
+    "manifest_version": 2,
+    "name": "application_chrome",
+    "version": "1.0",
+    "description": "Получение URL",
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    },
+    
+    "browser_action": {
+        "default_title": "Я Влад - я ссылкам рад",
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+    
+    "content_scripts": [
+        {
+            "matches": [ "<all_urls>" ],
+            "js": [ "main.js" ],
+            "css": ["style.css"]
+        }
+    ],
+    "permissions": [
+        "tabs", "<all_urls>", "storage"
+    ]
+     
+ }
+
+
+
+
