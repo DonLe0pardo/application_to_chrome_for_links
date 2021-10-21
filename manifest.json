@@ -10,7 +10,7 @@
     },
     
     "browser_action": {
-        "default_title": "Я Влад - я ссылкам рад",
+        "default_title": "Ссылки здесь",
         "default_icon": "icon.png",
         "default_popup": "popup.html"
     },
