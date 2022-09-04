@@ -1,3 +1,3 @@
 # application_to_chrome_for_links
 
-## is OLD !
+## is OLD ! does not work
